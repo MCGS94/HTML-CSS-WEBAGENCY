@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="title" content="WebAgency">
+    <meta name="description" content="Vous avez un projet ? la WebAgency est là pour vous aider à le réaliser. Nous sommes spécialisés dans la création de site web. Faites nous confiance">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Web Agency</title>
+    <meta name="twitter:title" content="Agencewebparis">
+    <meta name="twitter:description" content="Vous avez un projet ? la WebAgency est là pour vous aider à le réaliser. Nous sommes spécialisés dans la création de site web. Faites nous confiance ">
+    <meta name="twitter:image" content="images/ico/favicon.ico">
+    <meta name="twitter:card" content="images/slider/bg1.jpg">
+    <meta property="og:title" content="Agencewebparis">
+    <meta property="og:description" content="Vous avez un projet ? la WebAgency est là pour vous aider à le réaliser. Nous sommes spécialisés dans la création de site web. Faites nous confiance">
+    <meta property="og:image" content="images/ico/favicon.ico">
+    <meta property="og:url" content="images/slider/bg1.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/ico/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/ico/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ************** BARRE DE NAVIGATION *************** -->
+    <header class="fixed_nav">
+        <div id="logo">
+            <img src="images/logo.png " alt="logo">
+        </div>
+        <nav class="nav">
+            <input type="checkbox" id="toggle" />
+            <label for="toggle" class="toggle-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#section-services">Services</a></li>
+                <li><a href="#section-portfolio">Portfolio</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ************************ SLIDE ****************************** -->
+    <section class="slider">
+        <input type="radio" id="i1" name="images" checked />
+        <input type="radio" id="i2" name="images" />
+        <figure class="slide_img" id="one">
+            <img src="images/slider/bg1.jpg" alt="imagefille">
+            <!-- flèches -->
+            <label class="prev" for="i2"><span>&#x2039;</span></label>
+            <label class="next" for="i2"><span>&#x203a;</span></label>
+            <figcaption class="titre_slider">
+                <div class="border_caption">
+                    <h1><span class="titre-name">WEBAGENCY</span>: <span class="titre-description">L'AGENCE DE TOUS</span> <br>VOS PROJETS!</h1>
+                    <p>Vous avez un projet web? Notre entreprise vous aidera à le réaliser!</p>
+                    <a href="#">Plus d'infos</a>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="slide_img" id="two">
+            <img src="images/slider/bg2.jpg" alt="imagegarcon">
+            <!-- flèches -->
+            <label class="prev" for="i1"><span>&#x2039;</span></label>
+            <label class="next" for="i1"><span>&#x203a;</span></label>
+        </figure>
+        <div id="barres_slider">
+            <label for="i1" class="barres" id="barres1"></label>
+            <div class="rectangle"></div>
+        </div>
+        <!-- barre du slider -->
+    </section>
+    <!-- **************************** SECTION NOS SERVICES ******************************** -->
+    <section id="nos_services">
+        <header class="heading" id="section-services">
+            <h2>NOS SERVICES</h2>
+            <div class="line"></div>
+            <div class="circle"></div>
+            <p>Conception de site Web intelligente. Pour les entreprises intelligentes. N'importe quel style. Toute industrie. Toute fonctionnalité. Tout simplement magnifique. Magnifiquement simple.</p>
+        </header>
+        <section id="services">
+            <figure id="services_img_ordi">
+                <img src="images/main-feature.png" alt="image ordinateur" />
+            </figure>
+            <aside id="services_description">
+                <div class="charte">
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
+                            <i class="fa fa-line-chart fa-stack-1x" aria-hidden="true"></i>
+                            <i class="fa fa-circle changecolor" aria-hidden="true"></i>
+                        </span>
+                    <h3>UX design</h3>
+                    <p>Chez nous, l'utilisateur est placé au premier rang. Nous réalisons des designs qui permettront à vos clients d'avoir une expérience des plus réussites.</p>
+                </div>
+                <div class="charte">
+                    <span class="fa-stack fa-2x"> 
+                            <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
+                            <i class="fa fa-cubes fa-stack-1x" aria-hidden="true"></i>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                        </span>
+                    <h3>UI design</h3>
+                    <p> Avec plusieurs années d'expériences, nous sommes des experts à la réalisation des sites internet avec un design innovant et de qualité afin de vous permettre de vous démarquer de vos concurrents. </p>
+                </div>
+                <div class="charte">
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
+                            <i class="fa fa-pie-chart fa-stack-1x" aria-hidden="true"></i>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                        </span>
+                    <h3>SEO</h3>
+                    <p>Nous vous proposons aussi d'optimiser votre visibilité sur internet en offrant un meilleur indexage de votre site par les moteurs de recherche pour vous permettre d'être mieux reconnu sur le web.</p>
+                </div>
+            </aside>
+        </section>
+    </section>
+    <!-- ******************** SECTION Portfolio *********************** -->
+    <section id="nos_projets">
+        <header class="heading" id="section-portfolio">
+            <h2>NOS PROJETS</h2>
+            <div class="line"></div>
+            <div class="circle"></div>
+            <p>Portfolio de nos réalisations. Vous y trouverez un peu de tout ce qui entoure nos domaines d'expertises.</p>
+        </header>
+        <div id="filtre">
+            <input type="radio" id="p1" name="portfolio" checked />
+            <input type="radio" id="p2" name="portfolio" />
+            <input type="radio" id="p3" name="portfolio" />
+            <input type="radio" id="p4" name="portfolio" />
+            <ul id="filters">
+                <li>
+                    <label for="p1" class="nav-item1"><span>All Works</span><i class="fa fa-caret-down" aria-hidden="true"></i></label>
+                </li>
+                <li>
+                    <label for="p2" class="nav-item2"><span>Creative</span><i class="fa fa-caret-down" aria-hidden="true"></i></label>
+                </li>
+                <li>
+                    <label for="p3" class="nav-item3"><span>Corporate</span><i class="fa fa-caret-down" aria-hidden="true"></i></label>
+                </li>
+                <li>
+                    <label for="p4" class="nav-item4"><span>Portfolio</span><i class="fa fa-caret-down" aria-hidden="true"></i></label>
+                </li>
+            </ul>
+            <div class="lesprojets">
+                <ul class="portfolios">
+                    <li class="all-project projet2">
+                        <figure class="portfolio_image">
+                            <img src="images/portfolio/01.jpg">
+                            <figcaption class="caption">
+                                <h3>Opticien OP</h3>
+                                <p>Site internet d'un magasin de lunettes</p>
+                                <div class="eye">
+                                    <a href="images/portfolio/01.jpg" title="agrandir l'image" class="agrandir" data-fancybox data-caption="fait avec Html/Css/Js">
+                              <span class="fa-layers fa-fw">
+                            <i class="fa fa-circle " aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i> 
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                           </span>
+                            </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="all-project projet2">
+                        <figure class="portfolio_image">
+                            <img src="images/portfolio/02.jpg">
+                            <figcaption class="caption">
+                                <h3>Lapine Baptou</h3>
+                                <p>Documentaire Interactif</p>
+                                <div class="eye">
+                                    <a href="images/portfolio/02.jpg" title="agrandir l'image" class="agrandir" data-fancybox data-caption="fait avec Html/Css/Angular">
+                              <span class="fa-layers fa-fw">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i> 
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                           </span>
+                           </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="all-project projet1">
+                        <figure class="portfolio_image">
+                            <img src="images/portfolio/03.jpg">
+                            <figcaption class="caption">
+                                <h3>Pompadour</h3>
+                                <p>Site pour la nouvelle boisson tendance</p>
+                                <div class="eye">
+                                    <a href="images/portfolio/03.jpg" title="agrandir l'image" class="agrandir" data-fancybox data-caption="Fait avec React">
+                              <span class="fa-layers fa-fw">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i> 
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                           </span>
+                           </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="all-project projet3">
+                        <figure class="portfolio_image">
+                            <img src="images/portfolio/04.jpg">
+                            <figcaption class="caption">
+                                <h3>PerfectYourCV</h3>
+                                <p>Site de création de magnifique CV</p>
+                                <div class="eye">
+                                    <a href="images/portfolio/04.jpg" title="agrandir l'image" class="agrandir" data-fancybox data-caption="Fait avec React/Node.js">
+                              <span class="fa-layers fa-fw">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i> 
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                           </span>
+                           </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="all-project projet3">
+                        <figure class="portfolio_image">
+                            <img src="images/portfolio/05.jpg">
+                            <figcaption class="caption">
+                                <h3>Ulxy</h3>
+                                <p>Site e-commerce des produits de luxe</p>
+                                <div class="eye">
+                                    <a href="images/portfolio/05.jpg" title="agrandir l'image" class="agrandir" data-fancybox data-caption="Fait avec React/Node.js">
+                              <span class="fa-layers fa-fw">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i> 
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                           </span> 
+                           </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="all-project projet1">
+                        <figure class="portfolio_image">
+                            <img src="images/portfolio/06.jpg">
+                            <figcaption class="caption">
+                                <h3>Tour du monde en 10 jours</h3>
+                                <p>Site web du film adapté en animation.</p>
+                                <div class="eye">
+                                    <a href="images/portfolio/06.jpg" title="agrandir l'image" class="agrandir" data-fancybox data-caption="Fait avec Pixi.js">
+                              <span class="fa-layers fa-fw">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i> 
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                           </span>
+                           </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="all-project projet1">
+                        <figure class="portfolio_image">
+                            <img src="images/portfolio/07.jpg">
+                            <figcaption class="caption">
+                                <h3>Saturn VIII</h3>
+                                <p>Site pour le lancement de la nouvelle fusée</p>
+                                <div class="eye">
+                                    <a href="images/portfolio/07.jpg" title="agrandir l'image" class="agrandir" data-fancybox data-caption="Fait avec Vue.js">
+                              <span class="fa-layers fa-fw">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i> 
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                           </span>
+                           </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="all-project projet2">
+                        <figure class="portfolio_image">
+                            <img src="images/portfolio/08.jpg">
+                            <figcaption class="caption">
+                                <h3>BeMerch</h3>
+                                <p>Site pour la conception de design de vos marchandises </p>
+                                <div class="eye">
+                                    <a href="images/portfolio/08.jpg" title="agrandir l'image" class="agrandir" data-fancybox data-caption="Fait avec Wordpress">
+                            <span class="fa-layers fa-fw">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i> 
+                            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                           </span>
+                           </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ********** SECTION CONTACT ************** -->
+    <section id="section-contact">
+        <div class="carte">
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCU1eLFIGuoeAUgQ6867ho_YUhCAjwnYk0&q=25+Rue+d'Hauteville,Paris+France&zoom=15" allowfullscreen>
+            </iframe>
+        </div>
+        <aside class="contact">
+            <form class="contact-form">
+                <header class="adresse">
+                    <h2 class="contact-titre">Contact info</h2>
+                    <h4 class="adresse"><span class="contact-form__address__title">WebAgency SAS</span> <br />25 rue d'hauteville 75010 Paris<br />Tél: 01 02 03 04 05</h4>
+                </header>
+                <input id="contact-nom" type="text" name="nom" placeholder="Nom">
+                <input class="contact-email" type="email" name="email" placeholder="Email">
+                <input class="contact-objet" type="text" name="objet" placeholder="Objet">
+                <textarea class="contact-message" name="message" placeholder="Message"></textarea>
+                <div class="contact-container-button">
+                    <button class="contact-button">Envoyer le message</button>
+                </div>
+            </form>
+        </aside>
+    </section>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
